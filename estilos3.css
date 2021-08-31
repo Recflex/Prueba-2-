@@ -1,0 +1,48 @@
+#bdark{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border:solid rgb(0, 87, 158);
+    width: 100px;
+}
+body.darkmode{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.darkmode header{
+    background-color: black;
+    color: white;
+}
+.darkmode .Imagen{
+    border:solid white;
+    border-radius: 10px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+.darkmode h2{
+    color: white;
+}
+.darkmode .contenedor2{
+    background-color: black;
+    color: white;
+}
+.darkmode .contenedor3{
+    color: white;
+}
+.darkmode .articulo1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius:10px;
+}
+
+.darkmode .contenedor4 form{
+    background-color: black;
+    color: white;
+    border:solid white;
+    border-radius: 10px;
+}
+.darkmode footer p{
+    background-color: black;
+    color: white;
+}
+

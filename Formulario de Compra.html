@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos2.css">
+    <link rel="stylesheet" href="estilos3.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="icon" type="imagen/png" href="icono/kisspng-logo-technology-digital-restaurant-marketing-for-5aef5d8ab8ad46.6703005415256364907565.png">
+    <title>TecnoMax</title>
+</head>
+<body class="darkmode">
+    <header>
+        <h1>VENDEDOR N°1</h1>
+        <button id="bdark">Modo Blanco</button>
+    </header>
+
+    <!--Primera section-->
+
+        <div>
+            <div>
+            <div class="Imagen">   
+                <a href="Imagenes/Carrucel 1.png" data-lightbox="Galeria"><img src="Imagenes/Carrucel 1.png" alt="" width="127"></a>
+            </div>
+            <div class="Imagen">
+                <a href="Imagenes/Carrucel 2.png" data-lightbox="Galeria"><img src="Imagenes/Carrucel 2.png" alt=""width="300"></a>
+            </div>
+            <div class="Imagen">
+                <a href="Imagenes/Carrucel 3.png" data-lightbox="Galeria"><img src="Imagenes/Carrucel 3.png" alt=""width="260"></a>
+            </div>
+            <div class="Imagen">
+                <a href="Imagenes/Carrucel 4.png" data-lightbox="Galeria"><img src="Imagenes/Carrucel 4.png" alt=""width="195"></a>
+            </div>
+            <div class="Imagen">
+                <a href="Imagenes/Carrucel 5.png" data-lightbox="Galeria"><img src="Imagenes/Carrucel 5.png" alt=""width="130"></a>
+            </div>
+            <div class="Imagen">
+                <a href="Imagenes/Carrucel 6.png" data-lightbox="Galeria"><img src="Imagenes/Carrucel 6.png" alt=""width="195"></a>
+            </div>
+            <div class="Imagen">
+                <a href="Imagenes/Carrucel 7.png" data-lightbox="Galeria"><img src="Imagenes/Carrucel 7.png" alt=""width="150"></a>
+            </div>
+            <H2>IPHONE X $20.000 </H2>
+        </div>     
+
+    <!--Segunda section-->
+
+    <section Class="contenedor2">
+        <h2>Descripción</h2>
+        <p class="descripcion">Doble cámara y más detalles Sus 2 cámaras traseras de 12 Mpx/12 Mpx te permitirán tomar imágenes con más detalles y lograr efectos únicos como el famoso modo retrato de poca profundidad de campo.</p>
+        <p class="descripcion">Además, el dispositivo cuenta con cámara frontal de 7 Mpx para que puedas sacarte divertidas selfies o hacer videollamadas.</p>
+        <p class="descripcion">Más para ver con su pantalla OLED de 5.8 ", disfrutá de colores intensos y mayor nitidez en todos tus contenidos.</p>
+        <p class="descripcion">Mayor rendimiento su memoria RAM de 3 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar.</p>
+        <p class="descripcion">Reconocimiento facial para mayor seguridad acercá el dispositivo a tu rostro para desbloquearlo instantáneamente. Su precisa tecnología de reconocimiento facial te garantiza un acceso al equipo rápido y seguro.</p>
+        <p class="descripcion">Batería para todo el día su batería de 2716 mAh se adapta a tu ritmo de vida y te garantiza energía para toda una jornada con una sola carga.</p>
+        <p class="descripcion">Gran capacidad de almacenamiento con su memoria interna de 64 GB siempre tendrás espacio para almacenar archivos y documentos importantes. Además, podrás guardar películas, series y videos para reproducirlos cuando quieras sin conexión.</p>
+    </section>
+
+<!--Tercera section-->
+
+<section class="contenedor3">
+    <button class="boton" type="button" onclick="mostrar(precio);"> Mostrar Especificasiones</button>
+    <div id="precio">
+        <p class="articulo">Pantalla Super Retina HD.</p>
+        <p class="articulo">Pantalla OLED Multi-Touch de 5,8 pulgadas (en diagonal)</p>
+        <p class="articulo">Pantalla HDR.</p>
+        <p class="articulo">Resolución de 2.436 por 1.125 píxeles a 458 p/p.</p>
+        <p class="articulo">Contraste de 1.000.000:1 (típico)</p>
+		<a class="articulo1" href="javascript:void(0);" onclick="ocultar(precio);">No mostrar</a>
+    </div>
+</section>
+
+<!--Cuarta section-->
+
+<section Class="contenedor4">
+    <h2>Comunicate con el Vendedor</h2>
+    <form action="">
+        <div class="nombre">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingresa tu Nombre">
+        </div>
+        <div class="apellido">
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" placeholder="Ingresa tu apellido">
+        </div>
+        <div class="apellido">
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" placeholder="Ingresa tu direccion">
+        </div>
+        <div class="email">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Ingresa tu Email">
+        </div>
+            <input type="submit" onclick=" return enviarformulario()"value="enviar">
+    </form>
+    <div id="error"></div>
+</section>
+<br>
+<br>
+<footer>
+    <p>Email:Tecno23@gmail.com</p>
+    <p>Derechos Reservados &copy; Recflex / Jesus Tomas Perez Hurtado 2021</p>
+</footer>
+<script type="text/javascript" src="Mostrar mas Información.js"></script>
+<script type="text/javascript" src="Validación de javaScript.js"></script>
+<script type="text/javascript" src="js/lightbox-plus-jquery.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+</body>
+
+</html>
